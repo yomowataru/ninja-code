@@ -1,0 +1,8 @@
+span {
+  transition: 1s;
+  cursor: pointer;
+}
+
+span:hover {
+  opacity: .5;
+}

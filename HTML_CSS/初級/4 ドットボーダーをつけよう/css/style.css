@@ -1,0 +1,5 @@
+p {
+  display: inline-block;
+  border-bottom: 2px dotted #0e6edf;
+  padding-bottom: 8px;
+}
