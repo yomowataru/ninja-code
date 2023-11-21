@@ -1,0 +1,15 @@
+div {
+  background-color: rgba(29, 29, 151, 0.521);
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+p {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
