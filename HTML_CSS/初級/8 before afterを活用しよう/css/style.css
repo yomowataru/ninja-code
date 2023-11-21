@@ -1,0 +1,23 @@
+div {
+  text-align: center;
+}
+
+p::before {
+  content: "▼";
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3::before,
+h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: .2rem;
+  background: #053D69;
+  margin: 0 1rem;
+}
