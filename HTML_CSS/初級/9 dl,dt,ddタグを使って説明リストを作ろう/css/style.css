@@ -1,0 +1,16 @@
+/* dt, dd {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+ } */
+
+dt{
+  float: left;
+}
+
+dd{
+  width: 400px;
+  margin-left: 80px;
+  border-bottom: dashed 1px gray;
+  margin-bottom: 10px;
+}
