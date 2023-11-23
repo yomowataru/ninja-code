@@ -1,0 +1,11 @@
+.text-wrap {
+  width: 300px;
+  border: 1px solid;
+  padding: 12px;
+}
+
+p {
+  text-indent: -1rem;
+  padding-left: 1rem;
+  word-break: break-all;
+}
