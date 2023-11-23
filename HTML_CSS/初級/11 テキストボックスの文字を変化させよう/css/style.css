@@ -1,0 +1,11 @@
+/* input:focus {
+  font-weight: bold;
+} */
+
+input[name="sample"] {
+  font-weight: bold;
+}
+
+input[name="sample"]::placeholder {
+  font-weight: normal;
+}
