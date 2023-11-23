@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+/* 奇数セレクタ */
+li:nth-child(odd) {
+  color: red;
+}
+/* 偶数セレクタ */
+li:nth-child(even) {
+  color: green;
+}
+
+/* 隣接セレクタ */
+span + span {
+  font-weight: bold;
+}
+
+/* 複数セレクタ */
+i,p {
+  color: blue;
+}
